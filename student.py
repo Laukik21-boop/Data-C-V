@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1rEaj8KPKf6-tI89MUYV7cDqSix6WSJgI
 """
 
-# Import Libraries
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -27,7 +27,7 @@ data = {
                    92, 89, 90, 90, 70]
 }
 
-# Convert into DataFrame
+
 df = pd.DataFrame(data)
 print("Original Dataset:\n")
 print(df)
