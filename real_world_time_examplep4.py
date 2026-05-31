@@ -30,7 +30,7 @@ for i in range(n):
     advertising_spend.append(ad_spend)
     sales.append(sale)
 
-# Create DataFrame
+
 df = pd.DataFrame({
     "Month": months,
     "Advertising_Spend": advertising_spend,
